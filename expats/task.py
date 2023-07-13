@@ -6,7 +6,7 @@ import pandas as pd
 
 from expats.common.config_util import dump_to_file, load_from_file
 from expats.common.log import get_logger
-from expats.common.type import TaskType
+#from expats.common.type import TaskType
 from expats.data.convert import ClassificationToRegression, RegressionToClassification
 from expats.data.dataset import Dataset
 from expats.data.factory import DatasetFactory
